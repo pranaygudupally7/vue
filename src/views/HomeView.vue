@@ -43,7 +43,7 @@ export default {
     }
   },
   mounted() {
-  fetch('https://node-5cg7.onrender.com/api')
+  fetch('https://doctors-node.onrender.com/api')
         .then(response => response.json())
         .then(data => {
           console.log(data);
